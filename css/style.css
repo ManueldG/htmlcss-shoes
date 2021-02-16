@@ -5,6 +5,7 @@
 }
 
 section{
+    
     position: relative;
     height: 100vh;
     position: relative;
@@ -18,8 +19,9 @@ h1 ,h2{
     position: absolute;
     left:50%;
     bottom: 10%;
-    width: 50px;
-
+    width: 20vw;
+    transform: translateX(-50%);
+    color:yellow;
 }
 
 section:nth-child(2){    
@@ -32,3 +34,6 @@ section:nth-child(3){
     background-image: url('../img/03.png') ;    
 } 
 
+h2 {
+    color:green;
+}
