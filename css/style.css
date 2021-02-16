@@ -5,6 +5,7 @@
 }
 
 section{
+    position: relative;
     height: 100vh;
     position: relative;
     background-color:red;
@@ -12,6 +13,14 @@ section{
     background-position: center;
     background-repeat: no-repeat;
 } 
+
+h1 ,h2{
+    position: absolute;
+    left:50%;
+    bottom: 10%;
+    width: 50px;
+
+}
 
 section:nth-child(2){    
     background-color:green;
@@ -23,8 +32,3 @@ section:nth-child(3){
     background-image: url('../img/03.png') ;    
 } 
 
-.text {
-    position:absolute;
-    
-    
-}
