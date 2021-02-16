@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
-section{
+header{
     
+}
+
+section{
+    font-family: 'Rubik Mono One', sans-serif;
     position: relative;
     height: 100vh;
     position: relative;
@@ -18,10 +22,11 @@ section{
 h1 ,h2{
     position: absolute;
     left:50%;
-    bottom: 10%;
-    width: 20vw;
+    bottom: 5%;
+    width: 45vw;
     transform: translateX(-50%);
     color:yellow;
+    font-size:36px;
 }
 
 section:nth-child(2){    
