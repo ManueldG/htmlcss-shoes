@@ -7,10 +7,11 @@
 
 header ul{
     list-style: none;
-    line-height:30px;
+    line-height:6px;
 }
 
 header {
+    background-color: red;
     position: -webkit-sticky;
     position: sticky;
     top:0;
@@ -20,16 +21,15 @@ header {
 
 nav{
     background-color: rgba(112, 112, 112, 0.6);
-    height:30px;
     width: 100%;
 }
 
 li {
-    background-color:rgba(55, 0, 255, 0.521);
+    /*background-color:rgba(55, 0, 255, 0.521);
     margin-left: 5px;
-    padding: 2px;
+    padding: 0 2px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid black;*/
     display:inline;
     
 }
@@ -38,15 +38,34 @@ a {
     text-decoration: none;
 }
 
-li:hover {
-    cursor:pointer;
-    
-    
+svg {
+    width:30px;
+    height:30px; 
 }
 
+circle {
+    stroke: black; 
+    stroke-width: 3px ; 
+    fill:rgb(97, 99, 216);
+} 
+ 
+text {
+    font-family:times;
+    font-size:18px;
+    fill:gray;
+} 
 
-    
-  
+li svg:hover {
+    cursor:pointer;
+    background-color:antiquewhite;
+    fill: rgb(253, 255, 253);    
+}
+
+li circle:hover {
+    cursor:pointer;
+    background-color:antiquewhite;
+    fill: rgb(23, 44, 23);    
+} 
  section{
     font-family: 'Rubik Mono One', sans-serif;
     position: relative;
