@@ -6,26 +6,48 @@
 }
 
 header ul{
-    text-decoration: none;
     list-style: none;
     line-height:30px;
 }
 
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 1;    
+  }
+
 nav{
-    background-color: rgba(112, 112, 112, 0.336);
+    background-color: rgba(112, 112, 112, 0.6);
     height:30px;
+    width: 100%;
 }
 
-li{
-    background-color:aqua;
+li {
+    background-color:rgba(55, 0, 255, 0.521);
     margin-left: 5px;
     padding: 2px;
     border-radius: 50%;
     border: 1px solid black;
     display:inline;
+    
 }
 
-section{
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    cursor:pointer;
+    
+    
+}
+
+
+    
+  
+ section{
     font-family: 'Rubik Mono One', sans-serif;
     position: relative;
     height: 100vh;
@@ -36,7 +58,7 @@ section{
     background-repeat: no-repeat;
 } 
 
-h1 ,h2{
+h1,h2{
     position: absolute;
     left:50%;
     bottom: 5%;
@@ -56,6 +78,6 @@ section:nth-child(3){
     background-image: url('../img/03.png') ;    
 } 
 
-h2 {
+section:nth-child(3) h2{
     color:green;
 }
