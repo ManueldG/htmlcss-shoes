@@ -35,13 +35,14 @@ ul{
 }
 
 li {
-    /*background-color:rgba(55, 0, 255, 0.521);
+    /*background-color:rgba(55, 0, 255, 0.521);*/
     margin-left: 5px;
-    padding: 0 2px;
-    border-radius: 50%;
+    /*height:30px;
+    width:30px;*/
+    /*padding: 0 2px;*/
+    /*border-radius: 50%;
     border: 1px solid black;*/
-    display:inline;
-    
+    /*display:inline-block;*/    
 }
 
 a {
@@ -57,7 +58,7 @@ circle {
     stroke: black; 
     stroke-width: 3px ; 
     fill:rgb(97, 99, 216);
-} 
+}
  
 text {
     font-family:times;
@@ -65,17 +66,28 @@ text {
     fill:gray;
 } 
 
-li svg:hover {
+li a:hover svg:hover {
     cursor:pointer;
     background-color:antiquewhite;
     fill: rgb(253, 255, 253);    
 }
 
-li circle:hover {
+li a:hover circle{
     cursor:pointer;
     background-color:antiquewhite;
     fill: rgb(23, 44, 23);    
 } 
+
+li a {
+    background-color:rgb(39, 28, 28);
+    display:inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
  section{
     font-family: 'Rubik Mono One', sans-serif;
     position: relative;
